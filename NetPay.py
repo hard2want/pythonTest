@@ -4,9 +4,13 @@ name = input("What is your name? ")
 # prompt user for their hourly rate, remember to make it a float
 hourlyPay = float(input("How much do you get paid by the hour? "))
 
-
-overtimeHourlyPay=hourlyPay*1.5
+# promt user for the number of hours they worked, remember to make it a float
 weeklyHoursWorked=float(input("How many hours do you work each week? "))
+
+# calculate the rate per hour for overtime hours
+overtimeHourlyPay = hourlyPay * 1.5
+
+
 if weeklyHoursWorked <= 40:
     weeklyOvertimeHoursWorked=0
 else:
