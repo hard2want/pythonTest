@@ -6,10 +6,10 @@ if weeklyHoursWorked <= 40:
     weeklyOvertimeHoursWorked=0
 else:
     weeklyOvertimeHoursWorked=weeklyHoursWorked-40
-if weeklyHoursWorked <=40:
-    weeklyHoursWorked=weeklyHoursWorked
-else:
-    weeklyHoursWorked=40
+#if weeklyHoursWorked <=40:
+#    weeklyHoursWorked=weeklyHoursWorked
+#else:
+#    weeklyHoursWorked=40
 if weeklyHoursWorked+weeklyOvertimeHoursWorked <= 40:
    weeklySalary=weeklyHoursWorked*hourlyPay
 else: 
